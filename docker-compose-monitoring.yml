@@ -79,5 +79,7 @@ services:
 
 networks:
     default:
+      external:
+        name: monitoring-shared-network
     internal:
         internal: true
